@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Vamos Uploadingar</title>
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet"  href="style.css"/>
+	</head>
+	<body>
+		<div id="drop_zone" class="area-upload" >
+			<label for="upload-file" class="label-upload">
+				<i class="fas fa-cloud-upload-alt"></i>
+				<div class="texto">Clique ou arraste o arquivo</div>
+			</label>
+			<input type="file" id="upload-file" name="fileList-pasta[]" webkitdirectory multiple/>
+			<div class="lista-uploads">
+			</div>
+		</div>
+
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
